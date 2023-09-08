@@ -1,5 +1,5 @@
 from typing import List, Dict
-
+# from timeit import timeit
 
 def freqDistro(nums: List[int]) -> Dict[int,int]:
     elements = list(set(nums))
@@ -21,4 +21,10 @@ def newFreqDistro(nums: List[int]) -> Dict[int,int]:
 
 if __name__ == '__main__':
     nums = [(i + 1) for i in range(10)]
-    print(freqDistro(nums))
+    t_0 = timeit(stmt='freqDisto(nums)', setup='from __main__ import freqDistro, nums')
+    t_1 = timeit(stmt='newFreqDistro(nums)', setup='from __main__ import newFreqDistro, nums')
+    print(t_0)
+    print(t_1)
+
+# some ending thoughts:
+    # I used timeit function to check for speed and the newer method is roughly 38% faster 
