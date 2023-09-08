@@ -28,3 +28,4 @@ if __name__ == '__main__':
 
 # some ending thoughts:
     # I used timeit function to check for speed and the newer method is roughly 38% faster 
+# forgot to mention I didn't run it on command line will do so in the future and publish the results here
