@@ -8,6 +8,8 @@ def freqDistro(nums: List[int]) -> Dict[int,int]:
     for i in nums:
         distro[i] += 1
     return distro
+
+# yeah this is the easier method, will test the time and put it out soon
 def newFreqDistro(nums: List[int]) -> Dict[int,int]:
     count = {}
     for i in nums:
