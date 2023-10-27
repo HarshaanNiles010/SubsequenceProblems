@@ -1,5 +1,5 @@
 from typing import List, Dict
-# from timeit import timeit
+from timeit import timeit
 
 def freqDistro(nums: List[int]) -> Dict[int,int]:
     elements = list(set(nums))
