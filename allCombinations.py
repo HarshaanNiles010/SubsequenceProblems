@@ -29,3 +29,5 @@ if __name__ == '__main__':
 #iterative combination function for a list of lenght: 5 takes time: 1.8377112500020303secs
 #recursive combination function for a list of lenght: 6 takes time: 4.265175250002358secs
 #iterative combination function for a list of lenght: 6 takes time: 3.2475934169997345secs
+#recursive combination function for a list of lenght: 7 takes time: 8.233815041996422secs
+#iterative combination function for a list of lenght: 7 takes time: 6.44483533300081secs
