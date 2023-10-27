@@ -25,3 +25,5 @@ if __name__ == '__main__':
     
     print(f"recursive combination function for a list of lenght: {len(l)} takes time: {t_0}secs")
     print(f"iterative combination function for a list of lenght: {len(l)} takes time: {t_1}secs")
+#recursive combination function for a list of lenght: 5 takes time: 2.477901332997135secs
+#iterative combination function for a list of lenght: 5 takes time: 1.8377112500020303secs
